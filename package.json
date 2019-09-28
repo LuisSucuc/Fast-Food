@@ -1,0 +1,56 @@
+{
+  "name": "Fast Orders",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1",
+    "jest-expo": "^33.0.0"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0",
+    "@expo/samples": "2.1.1",
+    "expo": "^33.0.0",
+    "native-base": "^2.7.2",
+    "pouchdb-adapter-asyncstorage": "^6.4.1",
+    "pouchdb-adapter-http": "^7.0.0",
+    "pouchdb-adapter-websql-core": "7.0.0",
+    "pouchdb-checkpointer": "7.0.0",
+    "pouchdb-core": "^7.0.0",
+    "pouchdb-errors": "7.0.0",
+    "pouchdb-find": "7.0.0",
+    "pouchdb-generate-replication-id": "7.0.0",
+    "pouchdb-replication": "^7.0.0",
+    "pouchdb-utils": "7.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-accordion": "^1.0.1",
+    "react-native-animate-loading-button": "^1.0.3",
+    "react-native-collapsible": "^0.13.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-expandableview": "^1.0.1",
+    "react-native-flash-message": "^0.1.10",
+    "react-native-floating-action": "^1.14.2",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-material-initials": "0.0.12",
+    "react-native-modal": "^7.0.2",
+    "react-native-modal-filter-picker": "^1.3.4",
+    "react-native-router-flux": "^4.0.1",
+    "react-native-swiper": "^1.5.13",
+    "react-native-table-component": "^1.2.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^3.0.9",
+    "react-navigation-material-bottom-tabs": "^0.3.0"
+  }
+}

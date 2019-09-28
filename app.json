@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "sdkVersion": "33.0.0",
+    "privacy": "public",
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "splash": {
+      "image": "./Resources/splash_screen.png",
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "bundleIdentifier": "com.luissucuc.fastorders"
+    },
+    "android": {
+      "package": "com.luissucuc.fastorders",
+      "versionCode": 6
+    },
+    //"orientation": "landscape",
+    "icon": "./Resources/logo1.png",
+    "assetBundlePatterns": [
+      "Resources/*",
+      "images/*"
+    ]
+  }
+}
